@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>MENU PAGE</title>
+	<link rel="stylesheet" href="{% static 'Usepannel.css' %}">
+</head>
+<body bgcolor="orange">
+<div class="container">
+	<a class="title" href="{% url 'index'%}">home</a>
+	<a href="{% url 'sopan:python'%}">python</a>
+	<a href="{% url 'sopan:java'%}">java</a>
+	<a href="{% url 'sopan:save'%}">save</a>
+	<a href="{% url 'sopan:intel'%}">intel</a>
+
+	</div>
+</body>
+</html>
